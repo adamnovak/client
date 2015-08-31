@@ -131,7 +131,7 @@ class ClientHiveManager(ProjectManager):
             new_block_path = self.hive_disk_image.paths.project_root
         else:
             raise ClientException("Too few arguments, specify a block name "
-                                  "or add in your lauout.bii auto-root-path: True "
+                                  "or add in your layout.bii auto-root-path: True "
                                   "or a root-block: my_user/my_block")
 
         # If user has entered -- hello cpp, we create a main file with hello world cpp template
